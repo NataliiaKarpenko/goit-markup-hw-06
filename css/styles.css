@@ -618,8 +618,8 @@ img {
   top: 8px;
   right: 8px;
   padding: 6px;
-  /* width: 30px;
-  height: 30px; */
+  width: 30px;
+  height: 30px;
 
   background: var(--white-bgc);
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -632,8 +632,8 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn:hover + .modal-close-icon,
-.modal-btn:focus + .modal-close-icon {
+.modal-btn:hover .modal-close-icon,
+.modal-btn:focus .modal-close-icon {
   cursor: pointer;
   fill: var(--accent-color);
 }
