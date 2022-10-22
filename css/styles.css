@@ -617,6 +617,10 @@ img {
   position: absolute;
   top: 8px;
   right: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 6px;
   width: 30px;
   height: 30px;
