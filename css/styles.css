@@ -213,8 +213,11 @@ img {
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
   align-items: baseline;
+}
+.footer-contacts-container {
+  flex-grow: 1;
+  margin-right: 70px;
 }
 
 .footer-logo {
@@ -249,6 +252,10 @@ img {
 
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-networks-container {
+  margin-right: 93px;
 }
 
 .form-field {
@@ -656,6 +663,10 @@ img {
   letter-spacing: 0.03em;
 }
 
+.modal-input-list {
+  margin-bottom: 20px;
+}
+
 .form-input-item {
   display: flex;
   flex-direction: column;
@@ -711,7 +722,6 @@ img {
 
 .user-message-area {
   padding: 12px 16px;
-  margin-bottom: 20px;
   height: 120px;
   resize: none;
 }
@@ -749,7 +759,7 @@ img {
 .checkbox-icon {
   margin-right: 7px;
 
-  border: 1px solid var(--primary-text-color);
+  border: 2px solid var(--primary-text-color);
   border-radius: 2px;
 }
 
